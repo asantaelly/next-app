@@ -20,10 +20,10 @@ export default function Post ({
             </Head>
                 <article>
                     <h1 className="text-3xl font-black">{postData.title}</h1>
-                    <div className="text-sm font-medium py-2">
+                    <div className="text-sm font-normal py-2">
                         <Date dateString={postData.date} />
                     </div>
-                    <div className="text-lg font-medium" dangerouslySetInnerHTML={{ __html: postData.contentHtml}} />
+                    <div className="text-lg font-normal" dangerouslySetInnerHTML={{ __html: postData.contentHtml}} />
                 </article>
         </Layout>
     )
