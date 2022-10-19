@@ -24,7 +24,7 @@ export default function Home({
 
         <section className=''>
             <p className="text-xl">
-              I'm still writing this, wait for it!
+              The author is still working!
             </p>
             <br />
             <p className='text-xl'>
